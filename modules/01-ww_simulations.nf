@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 process ww_simulations {
-	cpus 1
+	conda '/home/bdmu/miniforge3/envs/ww_simulations'
 	tag "Simulating reads"
 
 	publishDir (
@@ -11,9 +11,9 @@ process ww_simulations {
 	)
 
 	input:
-	reference
-	proportions
-	primer_scheme
+	path (reference)
+	path (proportions)
+	path (primer_scheme)
 
 	output:
 	path ('*.fq')

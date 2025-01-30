@@ -1,8 +1,7 @@
 #!/usr/bin/env nextflow
 
 process minimap2 {
-	cpus 1
-	container 'nanozoo/minimap2'
+	container 'nanozoo/minimap2:latest'
 	tag "Aligning reads to the reference"
 
 	publishDir (
@@ -12,26 +11,19 @@ process minimap2 {
 	)
 
 	input:
-	tuple val sample, path fastq_1, path fastq_2
+	tuple val (sample), path (fastq_1), path (fastq_2)
 
 	output:
-	tuple val sample, path ("*.sam"), emit: sam
+	tuple val (sample), path ("*.sam"), emit: sam
 
 	script:
 	"""
-	minimap2 \ 
-	-t 8 \
-	-a -x sr \
-	${reference} \
-	${fastq_1} \
-	${fastq_2} \
-	-o ${sample}.sam
+	minimap2 -t 8 -a -x sr ${reference} ${fastq_1} ${fastq_2} -o ${sample}.sam
 	"""
 }
 
 process samtools_fixmate {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Making fixmate bam"
 
 	publishDir (
@@ -41,10 +33,10 @@ process samtools_fixmate {
 	)
 
 	input:
-	tuple val sample, path sam
+	tuple val (sample), path (sam)
 
 	output:
-	tuple val sample, path ("*.fixmate.bam"), emit: fixmatebam
+	tuple val (sample), path ("*.fixmate.bam"), emit: fixmatebam
 
 	script:
 	"""
@@ -53,8 +45,7 @@ process samtools_fixmate {
 }
 
 process samtools_sort {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Sorting reads"
 
 	publishDir (
@@ -64,10 +55,10 @@ process samtools_sort {
 	)
 
 	input:
-	tuple val sample, path fixmatebam
+	tuple val (sample), path (fixmatebam)
 
 	output:
-	tuple val sample, path ("*.pos.srt.bam")
+	tuple val (sample), path ("*.pos.srt.bam"), emit: possrtbam
 
 	script:
 	"""
@@ -76,8 +67,7 @@ process samtools_sort {
 }
 
 process samtools_markdup {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Marking duplicates"
 
 	publishDir (
@@ -87,10 +77,10 @@ process samtools_markdup {
 	)
 
 	input:
-	tuple val sample, path possrtbam
+	tuple val (sample), path (possrtbam)
 
 	output:
-	tuple val sample, path ("*.markdup.bam"), emit: markdupbam
+	tuple val (sample), path ("*.markdup.bam"), emit: markdupbam
 
 	script:
 	"""
@@ -99,8 +89,7 @@ process samtools_markdup {
 }
 
 process samtools_view {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Creating final bam"
 
 	publishDir (
@@ -110,10 +99,10 @@ process samtools_view {
 	)
 
 	input:
-	tuple val sample, path markdupbam
+	tuple val (sample), path (markdupbam)
 
 	output:
-	tuple val sample, path ("*.bam"), emit: bam
+	tuple val (sample), path ("*.bam"), emit: finalbam
 
 	script:
 	"""
@@ -122,8 +111,7 @@ process samtools_view {
 }
 
 process samtools_index {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Indexing bam file"
 
 	publishDir(
@@ -133,20 +121,19 @@ process samtools_index {
 	)
 
 	input:
-	tuple val sample, path bam
+	tuple val (sample), path (finalbam)
 
 	output:
-	path ("*.bai")
+	path ("*.bai"), emit: bai
 
 	script:
 	"""
-	samtools index ${bam}
+	samtools index ${finalbam}
 	"""
 }
 
 process samtools_consensus {
-	cpus 1
-	container 'staphb/samtools'
+	container 'staphb/samtools:latest'
 	tag "Creating consensus sequence"
 
 	publishDir (
@@ -156,10 +143,10 @@ process samtools_consensus {
 	)
 
 	input:
-	tuple val sample, path bam
+	tuple val (sample), path (finalbam)
 
 	output:
-	tuple val sample, path ("*.fasta")
+	tuple val (sample), path ("*.fasta"), emit: fasta
 
 	script:
 	"""
