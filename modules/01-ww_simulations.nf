@@ -20,7 +20,7 @@ process ww_simulations {
 
 	script:
 	"""
-	python generate_simulated_datasets.py \
+	generate_simulated_datasets.py \
 	-f ${reference} \
 	-i ${proportions} \
 	-p ${primer_scheme} \
