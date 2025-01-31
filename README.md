@@ -1,6 +1,10 @@
 - Determine lineages to simulate (eg. AY.122 and BA.1.10)
-- Edit proportions tsv file
+- Edit proportions tsv file (assets/sim_proportions.tsv)
 - Run the pipeline to generate simulated reads and create BAM and consensus FASTA files
   
 
 ```nextflow run simKatmon --fasta <fasta file of lineages to simulate> --out_dir <results dir>```
+
+example:
+
+```nextflow run simKatmon --fasta ./assets/AY.122_and_BA.1.10 --out_dir ./simKatmon/simulations/AY.122_and_BA.1.10/50_50```
