@@ -11,17 +11,17 @@ process ww_simulations {
 	)
 
 	input:
-	path (reference)
+	path (fasta)
 	path (proportions)
 	path (primer_scheme)
 
 	output:
-	path ('*.fq')
+	path ('*.fq'), emit: ch_fastq_file
 
 	script:
 	"""
 	generate_simulated_datasets.py \
-	-f ${reference} \
+	-f ${fasta} \
 	-i ${proportions} \
 	-p ${primer_scheme} \
 	-n 100000 \

@@ -11,14 +11,15 @@ process minimap2 {
 	)
 
 	input:
-	tuple val (sample), path (fastq_1), path (fastq_2)
+	path (reference)
+	tuple path (prop_fq1), path (prop_fq2), path (linAfq_1), path (linAfq_2), path (linBfq_1), path (linBfq_2) 
 
 	output:
-	tuple val (sample), path ("*.sam"), emit: sam
+	tuple val (prop_fq1.baseName), path ("*.sam"), emit: sam
 
 	script:
 	"""
-	minimap2 -t 8 -a -x sr ${reference} ${fastq_1} ${fastq_2} -o ${sample}.sam
+	minimap2 -t 8 -a -x sr ${reference} ${prop_fq1} ${prop_fq2} -o ${prop_fq1.baseName}.sam
 	"""
 }
 
