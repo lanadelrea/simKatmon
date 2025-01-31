@@ -7,4 +7,4 @@
 
 example:
 
-```nextflow run simKatmon --fasta ./assets/AY.122_and_BA.1.10 --out_dir ./simKatmon/simulations/AY.122_and_BA.1.10/50_50```
+```nextflow run simKatmon --fasta ./assets/AY.122_and_BA.1.10.fasta --out_dir ./simKatmon/simulations/AY.122_and_BA.1.10/50_50```
