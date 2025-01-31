@@ -1,4 +1,4 @@
-- Determine lineages to simulate.
+- Determine lineages to simulate (eg. AY.122 and BA.1.10)
 - Edit proportions tsv file
 - Run the pipeline to generate simulated reads and create BAM and consensus FASTA files
   
