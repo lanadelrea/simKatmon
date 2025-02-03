@@ -11,15 +11,16 @@ process minimap2 {
 	)
 
 	input:
+	val (sample)
 	path (reference)
-	tuple path (prop_fq1), path (prop_fq2), path (linAfq_1), path (linAfq_2), path (linBfq_1), path (linBfq_2) 
+	tuple path (fq1), path (fq2), path (linA_fq1), path (linA_fq2), path (linB_fq1), path (linB_fq2) 
 
 	output:
-	tuple val (prop_fq1.baseName), path ("*.sam"), emit: sam
+	tuple val (sample), path ("*.sam"), emit: sam
 
 	script:
 	"""
-	minimap2 -t 8 -a -x sr ${reference} ${prop_fq1} ${prop_fq2} -o ${prop_fq1.baseName}.sam
+	minimap2 -t 8 -a -x sr ${reference} ${fq1} ${fq2} -o ${sample}.sam
 	"""
 }
 
@@ -41,7 +42,7 @@ process samtools_fixmate {
 
 	script:
 	"""
-	samtools fixmate -O bam, level=1 ${sam} ${sample}.fixmate.bam
+	samtools fixmate -O bam,level=1 ${sam} ${sample}.fixmate.bam
 	"""
 }
 
@@ -72,7 +73,7 @@ process samtools_markdup {
 	tag "Marking duplicates"
 
 	publishDir (
-	path: "${params.out_dir/02-mapsam}",
+	path: "${params.out_dir}/02-mapsam",
 	mode: 'copy',
 	overwrite: 'true',
 	)
@@ -94,7 +95,7 @@ process samtools_view {
 	tag "Creating final bam"
 
 	publishDir (
-	path: "${params.out_dir/03-katmon_input}",
+	path: "${params.out_dir}/03-katmon_input",
 	mode: 'copy',
 	overwrite: 'true',
 	)
@@ -151,6 +152,6 @@ process samtools_consensus {
 
 	script:
 	"""
-	samtools consensus -f fasta ${bam} -o ${sample}.fasta
+	samtools consensus -f fasta ${finalbam} -o ${sample}.fasta
 	"""
 }

@@ -28,3 +28,26 @@ process ww_simulations {
 	-r 700
 	"""
 }
+
+process fastq_files {
+	tag "Copying fastq files for Katmon input"
+
+        publishDir (
+        path: "${params.out_dir}/03-katmon_input",
+        mode: 'copy',
+        overwrite: 'true',
+        )
+
+	input:
+	val (sample)
+	tuple path (fq1), path (fq2), path (linA_fq1), path (linA_fq2), path (linB_fq1), path (linB_fq2)
+
+	output:
+	path ('*.fastq')
+
+	script:
+	"""
+	cat ${fq1} ${fq2} > ${sample}.fastq
+	"""
+	
+}
