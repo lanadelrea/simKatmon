@@ -3,8 +3,8 @@
 - Run the pipeline to generate simulated reads (FASTQ) and create other Katmon input files (BAM and FASTA)
   
 
-```nextflow run simKatmon --fasta <fasta file of lineages to simulate> --out_dir <results dir>```
+```nextflow run simKatmon --sample <sample name including proportions> --fasta <fasta file of lineages to simulate> --out_dir <results dir>```
 
 example:
 
-```nextflow run simKatmon --fasta ./assets/AY.122_and_BA.1.10.fasta --out_dir ./simKatmon/simulations/AY.122_and_BA.1.10/50_50```
+```nextflow run simKatmon --sample AY.122_50_BA.1.10_50 --fasta /assets/AY.122_and_BA.1.10.fasta --out_dir /simulations/AY.122_and_BA.1.10/50_50```
