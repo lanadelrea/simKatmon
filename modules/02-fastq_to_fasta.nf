@@ -138,6 +138,12 @@ process samtools_consensus {
 	container 'staphb/samtools:latest'
 	tag "Creating consensus sequence"
 
+	publishDir (
+        path: "${params.out_dir}/01-simulated_reads",
+        mode: 'copy',
+        overwrite: 'true',
+        )
+
 	input:
 	tuple val (sample), path (finalbam)
 
@@ -146,7 +152,7 @@ process samtools_consensus {
 
 	script:
 	"""
-	samtools consensus -f fasta ${finalbam} -o ${sample}.fasta
+	samtools consensus -f fasta ${finalbam} -o ${sample}_unnamed.fasta
 	"""
 }
 
@@ -168,6 +174,6 @@ process rename_fasta {
 
 	script:
 	"""
-	cat ${fasta} | seqkit replace -p MN908947.3 -r ${sample} > ${sample}.fasta
+	seqkit replace -p MN908947.3 -r ${sample} ${fasta} > ${sample}.fasta
 	"""
 }
