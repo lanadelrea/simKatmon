@@ -49,5 +49,4 @@ process fastq_files {
 	"""
 	cat ${fq1} ${fq2} > ${sample}.fastq
 	"""
-	
 }

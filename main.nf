@@ -12,7 +12,7 @@ include {samtools_markdup}   from './modules/02-fastq_to_fasta.nf'
 include {samtools_view}      from './modules/02-fastq_to_fasta.nf'
 include {samtools_index}     from './modules/02-fastq_to_fasta.nf'
 include {samtools_consensus} from './modules/02-fastq_to_fasta.nf'
-
+include {rename_fasta}       from './modules/02-fastq_to_fasta.nf'
 
 workflow {
 	main:
@@ -26,4 +26,6 @@ workflow {
 	samtools_view( samtools_markdup.out.markdupbam )
 	samtools_index( samtools_view.out.finalbam )
 	samtools_consensus( samtools_view.out.finalbam )
+
+	rename_fasta( samtools_consensus.out.fasta )
 }

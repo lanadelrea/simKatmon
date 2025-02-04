@@ -138,12 +138,6 @@ process samtools_consensus {
 	container 'staphb/samtools:latest'
 	tag "Creating consensus sequence"
 
-	publishDir (
-	path: "${params.out_dir}/03-katmon_input",
-	mode: 'copy',
-	overwrite: 'true',
-	)
-
 	input:
 	tuple val (sample), path (finalbam)
 
@@ -153,5 +147,27 @@ process samtools_consensus {
 	script:
 	"""
 	samtools consensus -f fasta ${finalbam} -o ${sample}.fasta
+	"""
+}
+
+process rename_fasta {
+	container 'nanozoo/seqkit:latest'
+	tag "Renaming consensus fasta sequence"
+
+	publishDir (
+	path: "${params.out_dir}/03-katmon_input",
+	mode: 'copy',
+	overwrite: 'true',
+	)
+
+	input:
+	tuple val (sample), path (fasta)
+
+	output:
+	path ("*.fasta")
+
+	script:
+	"""
+	cat ${fasta} | seqkit replace -p MN908947.3 -r ${sample} > ${sample}.fasta
 	"""
 }
