@@ -1,5 +1,5 @@
-- Determine lineages to simulate (eg. AY.122 and BA.1.10)
-- Edit proportions tsv file (assets/sim_proportions.tsv)
+- Determine lineages to simulate (eg. AY.75 and BA.2.5)
+- Edit proportions tsv file (assets/proportions.tsv)
 - Run the pipeline to generate simulated reads (FASTQ) and create other Katmon input files (BAM and FASTA)
   
 
@@ -7,4 +7,4 @@
 
 example:
 
-```nextflow run simKatmon --sample AY.122_50_BA.1.10_50 --fasta /assets/AY.122_and_BA.1.10.fasta --out_dir /simulations/AY.122_and_BA.1.10/50_50```
+```nextflow run simKatmon --sample AY.75_50_BA.2.5_50 --fasta /assets/AY.75_and_BA.2.5.fasta --out_dir /simulations/AY.75_and_BA.2.5/50_50```
