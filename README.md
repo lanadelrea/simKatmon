@@ -11,11 +11,14 @@
   nextflow run simKatmon \
   --sample <sample name including proportions> \
   --fasta <fasta file of lineages to simulate> \
-  --out_dir <results dir>```
+  --out_dir <results dir>
+  ```
 
 example:
 
-  ```nextflow run simKatmon \
+  ```
+  nextflow run simKatmon \
   --sample AY.75_50_BA.2.5_50 \
   --fasta /assets/lineages-ref-fasta/AY.132_and_AY.63.fasta \
-  --out_dir /simulated-reads/AY.132_and_AY.63/proportion_50_50```
+  --out_dir /simulated-reads/AY.132_and_AY.63/proportion_50_50
+  ```
