@@ -1,0 +1,11 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+AY.132_50%_and_AY.63_50%_lineage_A	100.0%	AY.132	Delta (B.1.617.2-like)	AY.132	Delta	Usher placements: AY.132(1/1)
+AY.132_50%_and_AY.63_50%_lineage_B	99.99%	AY.63	Delta (B.1.617.2-like)	AY.63	Delta	Usher placements: AY.63(1/1)
+AY.132_95%_and_AY.63_5%_lineage_A	100.0%	AY.132	Delta (B.1.617.2-like)	AY.132	Delta	Usher placements: AY.132(1/1)
+AY.132_95%_and_AY.63_5%_lineage_B	99.98%	AY.63	Delta (B.1.617.2-like)	AY.63	Delta	Usher placements: AY.63(2/2)
+AY.132_98%_and_AY.63_2%_lineage_A	100.0%	AY.132	Delta (B.1.617.2-like)	AY.132	Delta	Usher placements: AY.132(1/1)
+AY.132_98%_and_AY.63_2%_lineage_B	99.96%	AY.63	Delta (B.1.617.2-like)	AY.63	Delta	Usher placements: AY.63(2/2)
+AY.132_90%_and_AY.63_10%_lineage_A	100.0%	AY.132	Delta (B.1.617.2-like)	AY.132	Delta	Usher placements: AY.132(1/1)
+AY.132_90%_and_AY.63_10%_lineage_B	99.99%	AY.63	Delta (B.1.617.2-like)	AY.63	Delta	Usher placements: AY.63(2/2)
+AY.132_80%_and_AY.63_20%_lineage_A	100.0%	AY.132	Delta (B.1.617.2-like)	AY.132	Delta	Usher placements: AY.132(1/1)
+AY.132_80%_and_AY.63_20%_lineage_B	99.99%	AY.63	Delta (B.1.617.2-like)	AY.63	Delta	Usher placements: AY.63(1/1)
