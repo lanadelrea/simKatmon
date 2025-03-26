@@ -22,3 +22,5 @@ example:
   --fasta /assets/lineages-ref-fasta/AY.132_and_AY.63.fasta \
   --out_dir /simulated-reads/AY.132_and_AY.63/proportion_50_50
   ```
+
+The file size of the simulated reads is too large to be uploaded on GitHub. We have made them available in this [drive](https://drive.google.com/drive/folders/1hU8dP_kKEYtdGeQl5QF8AXQXDVZC2ll-?usp=sharing) for your reference.
