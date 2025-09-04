@@ -1,0 +1,6 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+SRR17951438	99.71%	B.1.1.529		BA.1.1	Omicron	Usher placements: B.1.1.529(1/3) BA.1(1/3) BA.1.15(1/3)
+SRR18272230	99.71%	B.1.1.529		AY.103	Delta	Usher placements: B.1.1.529(1/3) B.1.617.2(1/3) BA.1.15(1/3)
+SRR18272229	99.87%	BA.1.1	Omicron (Unassigned)	XS	recombinant	Usher placements: BA.1.1(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18272228	99.98%	BA.1	Omicron (Unassigned)	XS	recombinant	Usher placements: BA.1(1/1); scorpio found insufficient support to assign a specific lineage
+SRR17951439	99.69%	B.1.1.529		BA.1	Omicron	Usher placements: B.1.1.529(1/3) BA.1(1/3) BA.1.15(1/3)
