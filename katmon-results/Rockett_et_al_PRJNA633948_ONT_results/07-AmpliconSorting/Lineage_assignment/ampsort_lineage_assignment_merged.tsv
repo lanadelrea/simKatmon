@@ -1,0 +1,9 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+SRR18006915_lineage_A	100.0%	AY.39.1.2	Delta (B.1.617.2-like)	AY.39.1.2	Delta	Usher placements: AY.39.1.2(1/1)
+SRR18006915_lineage_B	99.96%	B.1.1.529	Delta (B.1.617.2-like)	B.1.617.2	Delta	Usher placements: B.1.1.529(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage B.1.1.529
+SRR18006925_lineage_A	99.97%	AY.39.1.4	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1.4(2/2)
+SRR18006925_lineage_B	99.9%	B.1.1.529	Probable Omicron (Unassigned)	B.1.1		Usher placements: B.1.1.529(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006918_lineage_A	99.89%	AY.39.1.2	Delta (B.1.617.2-like)	AY.39.1.2	Delta	Usher placements: AY.39.1.2(2/2)
+SRR18006918_lineage_B	99.85%	BA.1.17	Probable Omicron (Unassigned)	B.1.1		Usher placements: BA.1.17(2/2); scorpio found insufficient support to assign a specific lineage
+SRR18006912_lineage_A	99.89%	AY.39.1.4	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1.4(2/2)
+SRR18006912_lineage_B	99.86%	BA.1.17	Probable Omicron (Unassigned)	B.1.1		Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
