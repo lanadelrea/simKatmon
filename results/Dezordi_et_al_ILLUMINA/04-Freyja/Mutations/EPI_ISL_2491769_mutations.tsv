@@ -1,0 +1,16 @@
+Position	RNA_change	VCF	gene	protein_change	N.9	P.2
+2879	G2879A	('2879', 'G', 'A')	ORF1ab	A872T	yes	
+7851	C7851T	('7851', 'C', 'T')	ORF1ab	A2529V	yes	
+10667	T10667G	('10667', 'T', 'G')	ORF1ab	L3468V		yes
+11078	T11078C	('11078', 'T', 'C')	ORF1ab	F3605L	yes	
+12053	C12053T	('12053', 'C', 'T')	ORF1ab	L3930F		yes
+23012	G23012A	('23012', 'G', 'A')	S	E484K	yes	yes
+23403	A23403G	('23403', 'A', 'G')	S	D614G	yes	yes
+25088	G25088T	('25088', 'G', 'T')	S	V1176F		yes
+27299	T27299C	('27299', 'T', 'C')	ORF6	I33T	yes	
+27853	A27853C	('27853', 'A', 'C')	ORF7b	E33A	yes	
+28628	G28628T	('28628', 'G', 'T')	N	A119S		yes
+28881	G28881A	('28881', 'G', 'A')	N	R203K	yes	yes
+28883	G28883C	('28883', 'G', 'C')	N	G204R	yes	yes
+28975	G28975T	('28975', 'G', 'T')	N	M234I		yes
+29148	T29148C	('29148', 'T', 'C')	N	I292T	yes	
