@@ -1,0 +1,5 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+SRR18006918	99.45%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/2) B.1.617.2(1/2)
+SRR18006915	99.56%	AY.39.1.2	Delta (B.1.617.2-like)	AY.39.1.2	Delta	Usher placements: AY.39.1.2(1/1)
+SRR18006925	99.74%	B.1.617.2		B.1.617.2	Delta	Usher placements: B.1.617.2(1/1)
+SRR18006912	99.68%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/2) B.1.617.2(1/2)
