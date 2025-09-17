@@ -1,0 +1,6 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+BA.1.10_95%_and_BA.2.5_5%	98.22%	BA.1.10	Omicron (BA.1-like)	BA.1.10	Omicron	Usher placements: BA.1.10(1/1)
+BA.1.10_90%_and_BA.2.5_10%	98.07%	B.1.1.529	Omicron (Unassigned)	BA.1	Omicron	Usher placements: B.1.1.529(1/6) BA.2(5/6); scorpio found insufficient support to assign a specific lineage
+BA.1.10_80%_and_BA.2.5_20%	98.07%	B.1.1.529	Omicron (Unassigned)	BA.1	Omicron	Usher placements: B.1.1.529(1/6) BA.2(5/6); scorpio found insufficient support to assign a specific lineage
+BA.1.10_50%_and_BA.2.5_50%	98.07%	B.1.1.529	Omicron (Unassigned)	BA.2	Omicron	Usher placements: B.1.1.529(1/6) BA.2(5/6); scorpio found insufficient support to assign a specific lineage
+BA.1.10_98%_and_BA.2.5_2%	98.23%	BA.1.10	Omicron (BA.1-like)	BA.1.10	Omicron	Usher placements: BA.1.10(1/1)
