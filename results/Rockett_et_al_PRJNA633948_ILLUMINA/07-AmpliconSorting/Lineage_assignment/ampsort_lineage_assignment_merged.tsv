@@ -1,0 +1,13 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+SRR18006916_lineage_A	99.97%	AY.39.1.2	Delta (B.1.617.2-like)	B.1.617.2	Delta	Usher placements: AY.39.1.2(1/1)
+SRR18006916_lineage_B	99.95%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006923_lineage_A	99.98%	AY.39.1.4	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1.4(1/1)
+SRR18006923_lineage_B	99.98%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006919_lineage_A	99.98%	AY.39.1.4	Delta (B.1.617.2-like)	B.1.617.2	Delta	Usher placements: AY.39.1.4(1/1)
+SRR18006919_lineage_B	99.94%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006917_lineage_A	99.98%	AY.39.1	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1(2/2)
+SRR18006917_lineage_B	99.98%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006924_lineage_A	99.99%	AY.39.1.4	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1.4(1/1)
+SRR18006924_lineage_B	99.97%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/1); scorpio found insufficient support to assign a specific lineage
+SRR18006914_lineage_A	99.99%	AY.39.1	Delta (B.1.617.2-like)	AY.39.1	Delta	Usher placements: AY.39.1(2/2)
+SRR18006914_lineage_B	99.97%	BA.1.17	Omicron (Unassigned)	BA.1.17	Omicron	Usher placements: BA.1.17(1/2) BA.1.17.2(1/2); scorpio found insufficient support to assign a specific lineage
