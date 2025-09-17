@@ -1,0 +1,13 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+ERR12411100	99.89%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411099	99.82%	BA.1	Delta (B.1.617.2-like) +K417N	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage BA.1
+ERR12411105	99.72%	B.1.1.529	Delta (B.1.617.2-like) +K417N	BA.5	Omicron	Usher placements: B.1.1.529(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage B.1.1.529
+ERR12411106	99.72%	B.1.1.529	Delta (B.1.617.2-like) +K417N	BA.5	Omicron	Usher placements: B.1.1.529(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage B.1.1.529
+ERR12411098	99.84%	BA.1	Delta (B.1.617.2-like) +K417N	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage BA.1
+ERR12411096	99.85%	BA.1	Probable Omicron (Unassigned)	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio found insufficient support to assign a specific lineage
+ERR12411097	99.86%	BA.1	Delta (B.1.617.2-like) +K417N	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage BA.1
+ERR12411095	99.84%	BA.1	Delta (B.1.617.2-like) +K417N	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage BA.1
+ERR12411104	99.89%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411107	99.84%	BA.1	Delta (B.1.617.2-like) +K417N	AY.98.1	Delta	Usher placements: BA.1(1/1); scorpio lineage B.1.617.2 conflicts with inference lineage BA.1
+ERR12411102	99.9%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411101	99.89%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)

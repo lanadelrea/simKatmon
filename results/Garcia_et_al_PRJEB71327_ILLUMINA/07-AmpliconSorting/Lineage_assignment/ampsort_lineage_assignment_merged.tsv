@@ -1,0 +1,23 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+ERR12411105_lineage_A	99.97%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411105_lineage_B	99.98%	B.1.1.529	Probable Omicron (Unassigned)	B.1.1.529	Omicron	Usher placements: B.1.1.529(1/1); scorpio found insufficient support to assign a specific lineage
+ERR12411097_lineage_A	99.98%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411097_lineage_B	99.98%	AY.98		B.1.617.2	Delta	Usher placements: AY.98(1/1)
+ERR12411099_lineage_A	99.98%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411099_lineage_B	99.99%	AY.98		B.1.617.2	Delta	Usher placements: AY.98(1/1)
+ERR12411100_lineage_A	99.97%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411100_lineage_B	100.0%	B.1		B.1		Usher placements: B.1(1/1)
+ERR12411096_lineage_A	99.96%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411096_lineage_B	99.99%	B.1		B.1.617		Usher placements: B.1(1/1)
+ERR12411104_lineage_A	99.98%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411104_lineage_B	100.0%	B.1		B.1		Usher placements: B.1(3/3)
+ERR12411101_lineage_A	99.97%	AY.98.1	Delta (B.1.617.2-like)	AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411101_lineage_B	99.98%	AY.98	Delta (B.1.617.2-like)	B.1.617.2	Delta	Usher placements: AY.98(1/1)
+ERR12411095_lineage_A	99.98%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411095_lineage_B	99.99%	AY.98		B.1.617.2	Delta	Usher placements: AY.98(1/1)
+ERR12411098_lineage_A	99.98%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411098_lineage_B	99.99%	AY.98		B.1.617.2	Delta	Usher placements: AY.98(1/1)
+ERR12411106_lineage_A	99.97%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411106_lineage_B	99.98%	B.1.1.529	Probable Omicron (Unassigned)	B.1.1.529	Omicron	Usher placements: B.1.1.529(1/1); scorpio found insufficient support to assign a specific lineage
+ERR12411107_lineage_A	99.98%	AY.98.1		AY.98.1	Delta	Usher placements: AY.98.1(1/1)
+ERR12411107_lineage_B	99.97%	B.1.1.529	Probable Omicron (Unassigned)	B.1		Usher placements: B.1.1.529(2/2); scorpio found insufficient support to assign a specific lineage
