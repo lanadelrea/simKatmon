@@ -1,0 +1,6 @@
+	Coinfection-nanopore2020-20%-error-10%-minor-variant_variants.tsv
+summarized	[('Omicron', 0.8666669982171965), ('Delta', 0.1333329969216008)]
+lineages	BA.2.62 AY.41 B.1.617.2 AY.32 AY.20 BA.2 AY.107 AY.104
+abundances	0.85185200 0.06349210 0.01705400 0.01639340 0.01562500 0.01481500 0.01390610 0.00686240
+resid	12.652124348894207
+coverage	97.6791626258235

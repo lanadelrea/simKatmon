@@ -1,0 +1,13 @@
+Coinfection-nanopore2020-2%-error-10%-minor-variant
+Coinfection-nanopore2020-10%-error-10%-minor-variant
+Coinfection-nanopore2020-20%-error-10%-minor-variant
+Coinfection-nanopore2020-10%-error-2%-minor-variant
+Coinfection-nanopore2020-2%-error-20%-minor-variant
+Coinfection-nanopore2020-20%-error-20%-minor-variant
+Coinfection-nanopore2020-5%-error-10%-minor-variant
+Coinfection-nanopore2020-10%-error-20%-minor-variant
+Coinfection-nanopore2020-10%-error-50%-minor-variant
+Coinfection-nanopore2020-5%-error-50%-minor-variant
+Coinfection-nanopore2020-5%-error-20%-minor-variant
+Coinfection-nanopore2020-20%-error-50%-minor-variant
+Coinfection-nanopore2020-2%-error-50%-minor-variant

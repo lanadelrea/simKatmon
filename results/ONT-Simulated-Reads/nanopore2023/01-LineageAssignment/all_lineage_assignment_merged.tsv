@@ -1,0 +1,21 @@
+Sample	Coverage	Pangolin	Scorpio	Nextclade	WHO clade	Note
+Coinfection-nanopore2023-20%-error-2%-minor-variant	99.42%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-5%-error-50%-minor-variant	99.29%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/2) B.1.617.2(1/2)
+Coinfection-nanopore2023-5%-error-2%-minor-variant	98.58%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-2%-error-20%-minor-variant	99.31%	B.1.1.529		B.1.1		Usher placements: B.1.1.529(1/1)
+Coinfection-nanopore2023-20%-error-5%-minor-variant	99.5%	BA.2	Probable Omicron (Unassigned)	BA.2	Omicron	Usher placements: BA.2(2/2); scorpio found insufficient support to assign a specific lineage
+Coinfection-nanopore2023-10%-error-20%-minor-variant	99.28%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/1)
+Coinfection-nanopore2023-10%-error-2%-minor-variant	98.54%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-20%-error-10%-minor-variant	99.4%	BA.2		BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-5%-error-20%-minor-variant	99.28%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/1)
+Coinfection-nanopore2023-5%-error-10%-minor-variant	99.45%	BA.2	Probable Omicron (Unassigned)	BA.2	Omicron	Usher placements: BA.2(2/2); scorpio found insufficient support to assign a specific lineage
+Coinfection-nanopore2023-2%-error-5%-minor-variant	98.63%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(1/1)
+Coinfection-nanopore2023-2%-error-2%-minor-variant	98.73%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-20%-error-50%-minor-variant	99.28%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/2) B.1.617.2(1/2)
+Coinfection-nanopore2023-10%-error-50%-minor-variant	99.41%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/1)
+Coinfection-nanopore2023-10%-error-10%-minor-variant	99.39%	BA.2		BA.2	Omicron	Usher placements: BA.2(3/3)
+Coinfection-nanopore2023-20%-error-20%-minor-variant	99.31%	BA.2		BA.2	Omicron	Usher placements: BA.2(1/1)
+Coinfection-nanopore2023-2%-error-10%-minor-variant	99.38%	BA.2	Probable Omicron (Unassigned)	BA.2	Omicron	Usher placements: BA.2(3/3); scorpio found insufficient support to assign a specific lineage
+Coinfection-nanopore2023-10%-error-5%-minor-variant	99.54%	BA.2	Omicron (BA.2-like)	BA.2	Omicron	Usher placements: BA.2(2/2)
+Coinfection-nanopore2023-5%-error-5%-minor-variant	99.47%	BA.2	Probable Omicron (Unassigned)	BA.2	Omicron	Usher placements: BA.2(2/2); scorpio found insufficient support to assign a specific lineage
+Coinfection-nanopore2023-2%-error-50%-minor-variant	99.29%	B.1.1.529		B.1.617.2	Delta	Usher placements: B.1.1.529(1/2) B.1.617.2(1/2)

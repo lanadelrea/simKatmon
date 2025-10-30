@@ -1,0 +1,21 @@
+Sample	Most Possible Strain	Other Possible Strain	Valid Map Rate
+Coinfection-nanopore2020-5%-error-50%-minor-variant	AY.25_B.1.617.2	Omicron	7/93
+Coinfection-nanopore2020-2%-error-2%-minor-variant	Omicron_BA.2	N10	2/93
+Coinfection-nanopore2020-20%-error-10%-minor-variant	Omicron_BA.2	AY.25	4/93
+Coinfection-nanopore2020-20%-error-2%-minor-variant	Omicron_BA.2	AY.25	4/93
+Coinfection-nanopore2020-2%-error-50%-minor-variant	AY.25_B.1.617.2	Omicron	7/93
+Coinfection-nanopore2020-20%-error-5%-minor-variant	Omicron_BA.2	Omicron	2/93
+Coinfection-nanopore2020-10%-error-50%-minor-variant	Omicron_BA.2	AY.25	8/93
+Coinfection-nanopore2020-5%-error-20%-minor-variant	Omicron_BA.2	AY.25	8/93
+Coinfection-nanopore2020-10%-error-5%-minor-variant	Omicron_BA.2	B.1.637	6/93
+Coinfection-nanopore2020-10%-error-10%-minor-variant	Omicron_BA.2	B.1.1.519	5/93
+Coinfection-nanopore2020-10%-error-2%-minor-variant	Omicron_BA.2	Omicron	1/93
+Coinfection-nanopore2020-2%-error-10%-minor-variant	Omicron_BA.2	AY.25	7/93
+Coinfection-nanopore2020-5%-error-5%-minor-variant	Omicron_BA.2	B.1.1.519	2/93
+Coinfection-nanopore2020-5%-error-2%-minor-variant	Omicron_BA.2	Omicron	1/93
+Coinfection-nanopore2020-20%-error-20%-minor-variant	Omicron_BA.2	AY.25	8/93
+Coinfection-nanopore2020-10%-error-20%-minor-variant	Omicron_BA.2	AY.25	8/93
+Coinfection-nanopore2020-2%-error-5%-minor-variant	Omicron_BA.2	Can not detect other strains.	
+Coinfection-nanopore2020-20%-error-50%-minor-variant	AY.25_B.1.617.2	Omicron	7/93
+Coinfection-nanopore2020-5%-error-10%-minor-variant	Omicron_BA.2	AY.25	7/93
+Coinfection-nanopore2020-2%-error-20%-minor-variant	Omicron_BA.2	AY.25	8/93
