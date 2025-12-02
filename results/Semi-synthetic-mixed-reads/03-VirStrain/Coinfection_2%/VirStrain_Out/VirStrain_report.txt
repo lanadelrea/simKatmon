@@ -1,0 +1,18 @@
+		Strain_ID	Cls_info	SubCls_info	Map_Score	Valid_Map_Rate	Total_Map_Rate	Strain_Depth	Strain_info	Unique_SNP
+>>Most possible strains:
+		>Omicron_BA.2_N408__EPI_ISL_7190366_2021-12-01_BA.2_Australia_QLD2568	Cluster26_1	NA	1.0	93/93	93/93	53.26027397260274			{'9-C': 9, '47-C': 7, '71-C': 4, '95-A': 7, '113-C': 15, '179-T': 38, '260-G': 65, '303-G': 67, '335-C': 75, '404-G': 69, '417-C': 68, '437-C': 71, '466-A': 63, '467-T': 57, '563-C': 101, '566-C': 101, '647-C': 94, '782-G': 65, '793-C': 60, '821-A': 36, '914-A': 34, '925-C': 36, '1001-C': 35, '1055-A': 39, '1102-T': 45, '1160-C': 58, '1207-C': 56, '1232-C': 57, '1323-G': 53, '1373-A': 34, '1418-C': 63, '1620-G': 65, '1665-C': 36, '1817-T': 56, '1923-C': 40, '1992-G': 57, '2129-C': 51, '2135-C': 50, '2141-G': 52, '2204-C': 26, '2426-A': 63, '2636-C': 58, '2771-T': 42, '2874-C': 46, '2975-C': 55, '3162-A': 48, '3191-C': 58, '3248-G': 70, '3471-C': 42, '3530-C': 39, '3586-A': 39, '3736-C': 53, '3915-G': 61, '4034-G': 47, '4191-A': 59, '4417-C': 54, '4627-C': 24, '4660-A': 21, '4918-C': 51, '5249-G': 53, '5315-C': 51, '5658-G': 35, '7205-C': 64, '7585-C': 54, '7874-C': 91, '8042-A': 42, '9763-T': 38, '9869-T': 46, '10401-T': 15, '10415-C': 11, '10585-C': 71, '11894-G': 42, '12470-T': 45, '14075-C': 60, '16775-T': 27, '18320-A': 44, '21307-T': 51, '21332-C': 57, '21378-T': 63, '21499-C': 59, '21937-T': 80, '21963-G': 56, '22336-A': 55, '22550-C': 73, '22570-A': 78, '22571-T': 75, '22640-G': 53, '22675-T': 66, '23693-A': 81, '24674-C': 78, '24816-C': 81, '24817-C': 82, '25395-C': 72}
+>>Other possible strains:
+	Can not detect other strains.
+
+>>Highest_Map_Strains (Could be FP):
+>>Top10_Score_Strains:
+		>Omicron_BA.2_N408__EPI_ISL_7190366_2021-12-01_BA.2_Australia_QLD2568	Cluster26_1	NA	1.0	93/93	93/93	NA	NA
+		>Omicron_BA.2_I1221T__EPI_ISL_8880058_2022-01-16_BA.2_Hong_Kong_CH22005962	Cluster33_1	Not_record	0.995096035962403	92/93	92/93	NA	NA
+		>Omicron_BA.2.75__BA.2_add[K147E.W152R.F157L.I210V.G257S.G339H.G446S.N460K]_revert[Q493R]_BA.2.75_EPI_ISL_13392500_Canada_2022-06-09	Cluster8_1	Not_record	0.9920310584389047	92/93	92/93	NA	NA
+		>Omicron_BA.2_A846G__EPI_ISL_9777529_2022-02-04_BA.2_England_MILK-3573FD0	Cluster30_1	Not_record	0.9881487535758071	92/93	92/93	NA	NA
+		>Omicron_BA.2_I68T__EPI_ISL_10193274_Scotland	Cluster24_1	Not_record	0.9869227625664079	92/93	92/93	NA	NA
+		>Omicron_BA.2.56__BA.2_add[L452M]__BA.2_EPI_ISL_9512109_India_2022-01-07	Cluster10_1	Not_record	0.9856967715570086	92/93	92/93	NA	NA
+		>Omicron_BA.2_+212SGR__EPI_ISL_8653546_BA.2_Denmark_2022-01-07	Cluster4_3	Not_record	0.985083776052309	92/93	92/93	NA	NA
+		>Omicron_BA.2.18_BA.2_K417T__EPI_ISL_10414807_England	Cluster27_1	Not_record	0.9840621168778096	92/93	92/93	NA	NA
+		>Omicron_BA.2_M1229I__EPI_ISL_10417826_2022-02-20_BA.2_England_LSPA-37D0F84	Cluster34_1	Not_record	0.9840621168778096	92/93	92/93	NA	NA
+		>Omicron_BA.2_S787H__EPI_ISL_9019719_2022-01-17_BA.2.12_England_MILK-32F7A12	Cluster29_1	Not_record	0.9834491213731098	92/93	92/93	NA	NA

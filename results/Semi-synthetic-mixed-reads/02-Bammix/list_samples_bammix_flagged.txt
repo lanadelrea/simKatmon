@@ -1,0 +1,5 @@
+Coinfection_50%
+Coinfection_2%
+Coinfection_5%
+Coinfection_10%
+Coinfection_20%
