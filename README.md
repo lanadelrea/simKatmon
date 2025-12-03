@@ -1,3 +1,6 @@
+This repository contains the scripts used to simulate the reads for testing in the Katmon pipeline. The complete results of the simulated reads, semi-synthetic reads, and publicly available datasets can be found in the `results` directory. 
+
+To use the scripts for simulation:
 - Determine lineages to simulate (eg. AY.132_and_AY.63)
 - Edit proportions tsv file (assets/proportions.tsv)
   example:
